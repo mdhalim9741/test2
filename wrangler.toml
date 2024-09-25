@@ -1,0 +1,10 @@
+name = "my-png-cache-worker"  # Replace with your desired Worker name
+type = "javascript"           # Use "typescript" if you're using TypeScript
+
+account_id = "de927422f516f7b3c3be51022a90b332"  # Your actual Account ID
+zone_id = "de927422f516f7b3c3be51022a90b332f528b"  # Your actual Zone ID
+route = "https://cdn-0provide.info/*"  # Your desired route
+
+compatibility_date = "2024-09-25"  # Set to the current date in YYYY-MM-DD format
+
+main = "./src/index.js"  # Path to your main script
